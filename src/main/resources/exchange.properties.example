@@ -1,0 +1,14 @@
+# Exchange Server Configuration
+# Copy this file to exchange.properties and fill in your actual values
+
+# Exchange server URL
+# For Office 365/Exchange Online: https://outlook.office365.com/EWS/Exchange.asmx
+# For on-premises Exchange: https://your-exchange-server.com/EWS/Exchange.asmx
+exchange.server.url=https://outlook.office365.com/EWS/Exchange.asmx
+
+# Exchange credentials
+exchange.username=your.email@example.com
+exchange.password=your-password
+
+# Maximum number of emails to retrieve
+exchange.max.emails=10
